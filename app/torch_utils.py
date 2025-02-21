@@ -25,7 +25,7 @@ hidden_size = 100
 num_classes = 10
 model = NeuralNet(input_size, hidden_size, num_classes)
 # device = torch.device("cpu")
-PATH = "app/mnist_ffn2.pth"
+PATH = "app/mnist_ffn3.pth"
 # model.load_state_dict(torch.load(PATH, map_location=device))
 model.load_state_dict(torch.load(PATH))
 model.eval()
